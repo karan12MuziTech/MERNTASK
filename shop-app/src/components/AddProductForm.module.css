@@ -1,0 +1,172 @@
+.addProBtn {
+  width: 25rem;
+  background: none;
+  border-color: rgb(60, 179, 147);
+  border-radius: 0.3rem;
+  color: rgb(60, 179, 147);
+  height: 3rem;
+  font-size: 1.5rem;
+  border: solid;
+  border-width: 0.2rem;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.addProBtn:hover {
+  background-color: rgb(60, 179, 147);
+  color: white;
+}
+
+.divHead {
+  background-color: rgb(60, 179, 147);
+}
+
+h3 {
+  color: white;
+  margin: 0;
+  padding: 0.9rem;
+}
+
+.inputFields {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding: 0.5rem;
+}
+
+input {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  height: 1.6rem;
+}
+
+select {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  width: 10rem;
+}
+
+.divCatLabel {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+}
+
+.divCatSelect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.imgInput {
+  content: "Browse Image";
+  cursor: pointer;
+}
+
+.inputLabel {
+  border: 2px;
+  color: black;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.btnUpload {
+  width: 12rem;
+  background: none;
+  border-color: rgb(60, 179, 147);
+  border-radius: 0.3rem;
+  color: rgb(60, 179, 147);
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.7rem;
+  /* border: solid; */
+  border-width: 0.1rem;
+  /* display: inline-block; */
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.btnUpload:hover {
+    background-color: rgb(60, 179, 147);
+    color: white;
+  }
+
+.btnAction{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.productBtn {
+  width: 10rem;
+  background: rgb(60, 179, 147);
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  height: 2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.7rem;
+  /* border: solid; */
+  border-width: 0.1rem;
+  /* display: inline-block; */
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+
+.cancelBtn {
+  width: 10rem;
+  border: none;
+  background: none;
+  background: rgb(110, 102, 102);
+  border-radius: 0.3rem;
+  color: white;
+  height: 2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.7rem;
+  /* border: solid; */
+  border-width: 0.1rem;
+  /* display: inline-block; */
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+textarea {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+/* 
+.imgInput::file-selector-button {
+    font-weight: bold;
+    border: thin solid grey;
+    background: none;
+    border-radius: 3px;
+    box-sizing: content-box;
+    font-size: small;
+    padding-block: 0.5rem;
+} */
+
+/* .imgInput::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.imgInput::before {
+  content: "Browse Image";
+}
+
+.imgInput:hover::before {
+    border-color: black;
+  }
+
+  .imgInput:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+  } */

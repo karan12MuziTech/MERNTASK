@@ -1,0 +1,174 @@
+.mainDiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.divProduct{
+    margin: 1rem;
+    margin-left: 25rem;
+    width: 20rem;
+    height: 27rem;
+    background: none;
+    border-color: rgb(60, 179, 147);
+    border-radius: 0.3rem;
+    color: rgb(60, 179, 147);
+    /* height: 3rem; */
+    font-size: 1.5rem;
+    border: solid;
+    border-width: 0.2rem;
+    display: inline-block;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.divImg{
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}   
+
+img{
+    height: 15rem;
+    width: 19rem;
+    border-radius: 0.3rem;
+}
+
+.divHead {
+    background-color: rgb(60, 179, 147);
+    
+  }
+
+  h3{
+    align-items: center;
+  }
+
+  .divDes{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    color: black;
+}
+
+.btnAction{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .btnDelete {
+    width: 9rem;
+    /* background: none; */
+    font-size: large;
+    background-color: rgb(221, 77, 77);
+    border-radius: 0.3rem;
+    color: white;
+    height: 2rem;
+    border-width: 0.1rem;
+    /* transition-duration: 0.3s; */
+    cursor: pointer;
+  }
+
+  .btnEdit {
+    /* margin-left: 10rem; */
+    width: 9rem;
+    background: none;
+    background-color: rgb(105, 168, 42);
+    border-radius: 0.3rem;
+    color: white;
+    font-size: large;
+    height: 2rem;
+    border-width: 0.1rem;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .inputFields {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divCatLabel {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+  }
+
+  .actionBtn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.productBtn {
+  width: 10rem;
+  background: rgb(60, 179, 147);
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  height: 2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.7rem;
+  /* border: solid; */
+  border-width: 0.1rem;
+  /* display: inline-block; */
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+
+.cancelBtn {
+  width: 10rem;
+  border: none;
+  background: none;
+  background: rgb(110, 102, 102);
+  border-radius: 0.3rem;
+  color: white;
+  height: 2rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.7rem;
+  /* border: solid; */
+  border-width: 0.1rem;
+  /* display: inline-block; */
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.deleteDiv{
+  margin-top: 1rem;
+}
+
+.lblDel{
+  margin: 0;
+  margin-left: 16rem;
+  font-size: larger;
+}
+
+.btnDel{
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+}

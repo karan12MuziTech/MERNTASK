@@ -1,0 +1,72 @@
+.addCatBtn {
+    width: 25rem;
+    background: none;
+    border-color: rgb(37, 122, 151);
+    border-radius: 0.3rem;
+    color: rgb(37, 122, 151);
+    height: 3rem;
+    font-size: 1.5rem;
+    border: solid;
+    border-width: 0.2rem;
+    display: inline-block;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.addCatBtn:hover {
+    background-color: rgb(37, 122, 151);
+    color: white;
+  }
+
+  .divHead {
+    background-color: rgb(37, 122, 151);
+  }
+
+  .inputFields {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  select{
+    width: 150%;
+  }
+
+  .btnAction{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.3rem;
+    margin-left: 7rem;
+}
+
+.btnCategory {
+  width: 10rem;
+  background: rgb(37, 122, 151);
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  height: 2rem;
+  border-width: 0.1rem;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+
+.cancelBtn {
+  width: 10rem;
+  border: none;
+  background: none;
+  background: rgb(110, 102, 102);
+  border-radius: 0.3rem;
+  color: white;
+  height: 2rem;
+  border-width: 0.1rem;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.divCatLabel {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+  }

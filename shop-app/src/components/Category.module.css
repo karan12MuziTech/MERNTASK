@@ -1,0 +1,148 @@
+.lblDel{
+  margin: 0;
+  margin-left: 16rem;
+  font-size: larger;
+}
+
+.deleteDiv{
+  margin-top: 1rem;
+}
+
+.btnDel{
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  list-style: none;
+  font-size: x-large;
+}
+
+h1{
+    margin-left: 28rem;
+}
+
+.h1Sub{
+  margin-right: 0;
+  margin-left: 17rem;
+}
+
+.divCat {
+  margin-left: 15rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  border: 2px solid black;
+  padding: 1rem;
+  width: 35rem;
+  justify-content: space-between;
+}
+
+.divSubCat{
+  margin-left: 4.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  border: 2px solid black;
+  padding: 1rem;
+  width: 35rem;
+  justify-content: space-between;
+}
+
+.btnEdit {
+  margin-left: 10rem;
+  width: 5rem;
+  background: none;
+  background-color: rgb(105, 168, 42);
+  border-radius: 0.3rem;
+  color: white;
+  font-size: large;
+  height: 2rem;
+  border-width: 0.1rem;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+
+.btnDelete {
+  width: 5rem;
+  background: none;
+  font-size: large;
+  background-color: rgb(221, 77, 77);
+  border-radius: 0.3rem;
+  color: white;
+  height: 2rem;
+  border-width: 0.1rem;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+/* .btnStyle{
+
+} */
+
+
+.divMain{
+  display: flex;
+  flex-direction: row;
+}
+
+.divSub{
+  /* margin-right: 10rem; */
+  margin-left: 4rem;
+}
+
+
+.divHead {
+  background-color: rgb(37, 122, 151);
+}
+
+.inputFields {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+
+.divCatLabel {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.btnAction{
+  display: flex;
+  gap: 1rem;
+  margin-top: 2.3rem;
+  margin-left: 7rem;
+}
+
+.cancelBtn {
+  width: 10rem;
+  border: none;
+  background: none;
+  background: rgb(110, 102, 102);
+  border-radius: 0.3rem;
+  color: white;
+  height: 2rem;
+  border-width: 0.1rem;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.btnCategory {
+  width: 10rem;
+  background: rgb(37, 122, 151);
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  height: 2rem;
+  border-width: 0.1rem;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
